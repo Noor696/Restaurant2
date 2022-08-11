@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "style" type="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Restaurant</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="./image/logo1.webp" alt="logo" width="100" height="50">
+        </div>
+        
+        <nav class="nav">
+            <a href="http://127.0.0.1:5501/index.html" class="navitam">Home</a>
+            <a href="http://127.0.0.1:5501/statistics.html" class="navitam">statistics</a>
+            <a href="" class="navitam">About Us</a>
+            <a href="https://www.cdc.gov/nutrition/resources-publications/benefits-of-healthy-eating.html">Benefits of Healthy Eating</a>
+            
+        </nav>
+        
+
+    </header>
+    <main>
+        <h1> JULIA Restaurant </h1>
+        <img src="./image/r1.jpg" alt="JULIA Restaurant" width="500" 
+        height="500">
+
+        <form id="form">
+            <label for="foodname">Food Name:</label><br>
+            <input type="text" name="food_name" id="foodname">
+            <br><br>
+            <label for="foodtypes">Types of the food:</label><br>
+            <select type="hidden" name="Types of the food" id="foodtypes">
+                <option value="none " selected>- -</option>
+                <option value="Fruit and vegetables " >Fruit and vegetables</option>
+                <option value="Starchy food ">Starchy food</option>
+                <option value="Dairy ">Dairy</option>
+                <option value="Protein">Protein</option>
+                <option value="Fat ">Fat</option>
+             </select>
+             <br><br>
+            <label for="price">Price:</label><br>
+            <input type="text" name="price" id="price">
+            <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset">
+
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Price</th>
+                        
+                    </tr>
+                </thead>
+            </table>
+        </form>
+
+
+        
+
+
+    </main>
+    <footer>
+        <script src="./app.js"></script>
+        <div class="footer">
+            <a href="#" class="fa fa-facebook"></a>
+        </div>
+        <p>&copy; copyright NoorAK 2022</p>
+        <span> eng.nooralkhateeb@gmail.com ,</span>
+        <span> +962785131336</span>
+        
+    </footer>
+</body>
+</html>
